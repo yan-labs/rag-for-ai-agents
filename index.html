@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG for AI Agents Compared: RAGFlow vs LlamaIndex vs Dify (2026)</title>
+    <meta name="description" content="Compare RAGFlow, LlamaIndex, and Dify for AI agents. Find the best RAG engine for your agent project in 2026.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="/" class="logo">🤖 RAG4Agents</a>
+                <div class="nav-links">
+                    <a href="#comparison">Comparison</a>
+                    <a href="#architecture">Architecture</a>
+                    <a href="#decision">Decision Guide</a>
+                    <a href="#setup">Setup Guides</a>
+                </div>
+            </nav>
+            <div class="hero">
+                <h1>RAG for AI Agents Compared</h1>
+                <p class="subtitle">RAGFlow vs LlamaIndex vs Dify (2026)</p>
+                <p class="hero-text">200,000+ developers build agents with RAG. Which engine should you choose?</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">200K+</span>
+                        <span class="stat-label">Developers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">280K+</span>
+                        <span class="stat-label">GitHub Stars</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">3</span>
+                        <span class="stat-label">Top Engines</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="comparison" class="section">
+            <div class="container">
+                <h2>🏆 RAG Engine Comparison for AI Agents</h2>
+                <p class="section-intro">Side-by-side comparison of the top RAG engines for building AI agents in 2026.</p>
+
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>
+                                    <div class="tool-header">
+                                        <span class="tool-name">RAGFlow</span>
+                                        <span class="tool-stars">⭐ 74,978</span>
+                                    </div>
+                                </th>
+                                <th>
+                                    <div class="tool-header">
+                                        <span class="tool-name">Dify</span>
+                                        <span class="tool-stars">⭐ 132,755</span>
+                                    </div>
+                                </th>
+                                <th>
+                                    <div class="tool-header">
+                                        <span class="tool-name">LlamaIndex</span>
+                                        <span class="tool-stars">⭐ 35,000+</span>
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Primary Use Case</td>
+                                <td>RAG + Agent fusion, deep document understanding</td>
+                                <td>Agentic workflow platform, visual builder</td>
+                                <td>Flexible RAG framework, extensive integrations</td>
+                            </tr>
+                            <tr>
+                                <td>Open Source</td>
+                                <td><span class="badge badge-green">✓ Yes</span></td>
+                                <td><span class="badge badge-green">✓ Yes</span></td>
+                                <td><span class="badge badge-green">✓ Yes</span></td>
+                            </tr>
+                            <tr>
+                                <td>Cloud Platform</td>
+                                <td><span class="badge badge-green">✓ Yes</span></td>
+                                <td><span class="badge badge-green">✓ Yes</span></td>
+                                <td><span class="badge badge-yellow">Enterprise</span></td>
+                            </tr>
+                            <tr>
+                                <td>Visual Builder</td>
+                                <td><span class="badge badge-yellow">Partial</span></td>
+                                <td><span class="badge badge-green">✓ Full</span></td>
+                                <td><span class="badge badge-red">✗ No</span></td>
+                            </tr>
+                            <tr>
+                                <td>Agent Integration</td>
+                                <td><span class="badge badge-green">✓ Native</span></td>
+                                <td><span class="badge badge-green">✓ Native</span></td>
+                                <td><span class="badge badge-green">✓ Via LangChain</span></td>
+                            </tr>
+                            <tr>
+                                <td>Chunking Strategy</td>
+                                <td><span class="badge badge-green">AI-powered</span></td>
+                                <td><span class="badge badge-yellow">Rule-based</span></td>
+                                <td><span class="badge badge-green">Highly configurable</span></td>
+                            </tr>
+                            <tr>
+                                <td>Embedding Models</td>
+                                <td>150+ built-in</td>
+                                <td>100+ built-in</td>
+                                <td>All major providers</td>
+                            </tr>
+                            <tr>
+                                <td>Vector Databases</td>
+                                <td>20+ supported</td>
+                                <td>30+ supported</td>
+                                <td>50+ supported</td>
+                            </tr>
+                            <tr>
+                                <td>Reranking</td>
+                                <td><span class="badge badge-green">✓ Built-in</span></td>
+                                <td><span class="badge badge-green">✓ Built-in</span></td>
+                                <td><span class="badge badge-green">✓ Multiple</span></td>
+                            </tr>
+                            <tr>
+                                <td>API & SDK</td>
+                                <td>REST API</td>
+                                <td>REST API + GraphQL</td>
+                                <td>Python SDK</td>
+                            </tr>
+                            <tr>
+                                <td>Scalability</td>
+                                <td><span class="badge badge-green">High</span></td>
+                                <td><span class="badge badge-green">Very High</span></td>
+                                <td><span class="badge badge-green">High</span></td>
+                            </tr>
+                            <tr>
+                                <td>Learning Curve</td>
+                                <td>Medium</td>
+                                <td>Low</td>
+                                <td>Medium-High</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="cta-box">
+                    <h3>🚀 Ready to build?</h3>
+                    <p>Choose your RAG engine and start building AI agents today.</p>
+                    <div class="cta-buttons">
+                        <a href="https://github.com/infiniflow/ragflow" target="_blank" class="btn btn-primary">RAGFlow GitHub →</a>
+                        <a href="https://github.com/langchain-ai/llama-index" target="_blank" class="btn btn-secondary">LlamaIndex GitHub →</a>
+                        <a href="https://github.com/langgenius/dify" target="_blank" class="btn btn-secondary">Dify GitHub →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="architecture" class="section section-alt">
+            <div class="container">
+                <h2>🏗️ RAG + Agent Architecture</h2>
+                <p class="section-intro">How RAG integrates with AI agents to create intelligent, knowledge-aware systems.</p>
+
+                <div class="architecture-diagram">
+                    <svg viewBox="0 0 800 500" class="arch-svg">
+                        <!-- User Query -->
+                        <rect x="20" y="220" width="120" height="60" rx="8" fill="#2d3748" />
+                        <text x="80" y="255" text-anchor="middle" fill="white" font-size="14">User Query</text>
+
+                        <!-- User arrow -->
+                        <path d="M140 250 L190 250" stroke="#4fd1c5" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+
+                        <!-- Agent/Orchestrator -->
+                        <rect x="190" y="190" width="140" height="120" rx="8" fill="#4c51bf" />
+                        <text x="260" y="240" text-anchor="middle" fill="white" font-size="16" font-weight="bold">Agent</text>
+                        <text x="260" y="265" text-anchor="middle" fill="white" font-size="12">Orchestrator</text>
+
+                        <!-- Agent decisions -->
+                        <path d="M330 220 L370 180" stroke="#4fd1c5" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+                        <path d="M330 250 L370 250" stroke="#4fd1c5" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+                        <path d="M330 280 L370 320" stroke="#4fd1c5" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+
+                        <!-- RAG Engine -->
+                        <rect x="370" y="150" width="140" height="80" rx="8" fill="#ed8936" />
+                        <text x="440" y="185" text-anchor="middle" fill="white" font-size="14" font-weight="bold">RAG Engine</text>
+                        <text x="440" y="205" text-anchor="middle" fill="white" font-size="11">Query → Context</text>
+
+                        <!-- Knowledge Base -->
+                        <rect x="370" y="270" width="140" height="80" rx="8" fill="#48bb78" />
+                        <text x="440" y="305" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Knowledge Base</text>
+                        <text x="440" y="325" text-anchor="middle" fill="white" font-size="11">Vectors + Documents</text>
+
+                        <!-- LLM -->
+                        <rect x="530" y="190" width="140" height="80" rx="8" fill="#667eea" />
+                        <text x="600" y="225" text-anchor="middle" fill="white" font-size="14" font-weight="bold">LLM</text>
+                        <text x="600" y="245" text-anchor="middle" fill="white" font-size="11">Generate Response</text>
+
+                        <!-- Response -->
+                        <rect x="670" y="220" width="120" height="60" rx="8" fill="#2d3748" />
+                        <text x="730" y="255" text-anchor="middle" fill="white" font-size="14">Final Response</text>
+
+                        <!-- Arrows -->
+                        <path d="M510 230 L530 230" stroke="#4fd1c5" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+                        <path d="M600 270 L600 320 L510 320 L510 270" stroke="#4fd1c5" stroke-width="2" fill="none" />
+                        <path d="M670 250 L720 250" stroke="#4fd1c5" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+
+                        <!-- Steps -->
+                        <text x="440" y="120" text-anchor="middle" fill="#718096" font-size="12">1. Retrieve</text>
+                        <text x="600" y="120" text-anchor="middle" fill="#718096" font-size="12">2. Generate</text>
+                        <text x="730" y="300" text-anchor="middle" fill="#718096" font-size="12">3. Respond</text>
+
+                        <!-- Arrow marker -->
+                        <defs>
+                            <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                                <polygon points="0 0, 10 3.5, 0 7" fill="#4fd1c5" />
+                            </marker>
+                        </defs>
+                    </svg>
+                </div>
+
+                <div class="arch-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h4>Query Understanding</h4>
+                        <p>Agent analyzes user query and determines what information is needed.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h4>Retrieve Context</h4>
+                        <p>RAG engine searches vector database for relevant documents.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h4>Augment Prompt</h4>
+                        <p>Retrieved context is combined with the original query.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h4>Generate Response</h4>
+                        <p>LLM generates answer based on augmented context.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="decision" class="section">
+            <div class="container">
+                <h2>🤔 Which RAG Engine for Your Agent?</h2>
+                <p class="section-intro">Use this decision guide to choose the right RAG engine for your project.</p>
+
+                <div class="decision-flow">
+                    <div class="decision-card">
+                        <h3>🎯 Choose RAGFlow if...</h3>
+                        <ul>
+                            <li>You need <strong>deep document understanding</strong></li>
+                            <li>You want <strong>AI-powered chunking</strong></li>
+                            <li>You need <strong>native agent integration</strong></li>
+                            <li>You prefer <strong>balanced features</strong></li>
+                        </ul>
+                        <div class="best-for">
+                            <span>Best for:</span> Document-heavy agents, research assistants
+                        </div>
+                    </div>
+
+                    <div class="decision-card">
+                        <h3>🎨 Choose Dify if...</h3>
+                        <ul>
+                            <li>You want <strong>visual workflow builder</strong></li>
+                            <li>You need <strong>no-code solution</strong></li>
+                            <li>You prefer <strong>rapid prototyping</strong></li>
+                            <li>You want <strong>enterprise features</strong></li>
+                        </ul>
+                        <div class="best-for">
+                            <span>Best for:</span> Teams without developers, workflow automation
+                        </div>
+                    </div>
+
+                    <div class="decision-card">
+                        <h3>⚙️ Choose LlamaIndex if...</h3>
+                        <ul>
+                            <li>You need <strong>maximum flexibility</strong></li>
+                            <li>You have <strong>strong engineering team</strong></li>
+                            <li>You want <strong>custom integrations</strong></li>
+                            <li>You need <strong>fine-grained control</strong></li>
+                        </ul>
+                        <div class="best-for">
+                            <span>Best for:</span> Custom agent architectures, research projects
+                        </div>
+                    </div>
+                </div>
+
+                <div class="decision-matrix">
+                    <h3>📊 Quick Decision Matrix</h3>
+                    <table>
+                        <tr>
+                            <th>Priority</th>
+                            <th>Recommended</th>
+                        </tr>
+                        <tr>
+                            <td>Easiest to use →</td>
+                            <td>Dify</td>
+                        </tr>
+                        <tr>
+                            <td>Most flexible →</td>
+                            <td>LlamaIndex</td>
+                        </tr>
+                        <tr>
+                            <td>Best document understanding →</td>
+                            <td>RAGFlow</td>
+                        </tr>
+                        <tr>
+                            <td>Enterprise scale →</td>
+                            <td>Dify</td>
+                        </tr>
+                        <tr>
+                            <td>Custom architectures →</td>
+                            <td>LlamaIndex</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="setup" class="section section-alt">
+            <div class="container">
+                <h2>🚀 Quick Setup Guides</h2>
+                <p class="section-intro">Get started with your chosen RAG engine in minutes.</p>
+
+                <div class="setup-tabs">
+                    <button class="tab-btn active" data-tab="ragflow">RAGFlow</button>
+                    <button class="tab-btn" data-tab="dify">Dify</button>
+                    <button class="tab-btn" data-tab="llamaindex">LlamaIndex</button>
+                </div>
+
+                <div class="tab-content active" id="ragflow">
+                    <pre><code># Docker Compose (Recommended)
+git clone https://github.com/infiniflow/ragflow.git
+cd ragflow
+docker compose up -d
+
+# Access at http://localhost:9380</code></pre>
+                </div>
+
+                <div class="tab-content" id="dify">
+                    <pre><code># Docker Compose
+git clone https://github.com/langgenius/dify.git
+cd dify/docker
+docker compose up -d
+
+# Access at http://localhost:8080</code></pre>
+                </div>
+
+                <div class="tab-content" id="llamaindex">
+                    <pre><code># Install via pip
+pip install llama-index
+
+# Basic usage
+from llama_index import VectorStoreIndex
+from llama_index.storage.storage_context import StorageContext
+from llama_index.vector_stores import ChromaVectorStore
+import chromadb
+
+# Build index
+chromadb_client = chromadb.PersistentClient(path="./chroma_db")
+vector_store = ChromaVectorStore(chromadb_client=chromadb_client)
+storage_context = StorageContext.from_defaults(vector_store=vector_store)
+index = VectorStoreIndex.from_documents(documents, storage_context=storage_context)
+
+# Query
+query_engine = index.as_query_engine()
+response = query_engine.query("Your question here")</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2>📚 Related Resources</h2>
+                <div class="resources-grid">
+                    <a href="https://github.com/infiniflow/ragflow" class="resource-card" target="_blank">
+                        <span class="resource-icon">⭐</span>
+                        <span class="resource-name">RAGFlow GitHub</span>
+                        <span class="resource-desc">74,978 stars</span>
+                    </a>
+                    <a href="https://github.com/langgenius/dify" class="resource-card" target="_blank">
+                        <span class="resource-icon">⭐</span>
+                        <span class="resource-name">Dify GitHub</span>
+                        <span class="resource-desc">132,755 stars</span>
+                    </a>
+                    <a href="https://github.com/langchain-ai/llama-index" class="resource-card" target="_blank">
+                        <span class="resource-icon">⭐</span>
+                        <span class="resource-name">LlamaIndex GitHub</span>
+                        <span class="resource-desc">35,000+ stars</span>
+                    </a>
+                    <a href="https://github.com/marketplace/cognae" class="resource-card" target="_blank">
+                        <span class="resource-icon">🔗</span>
+                        <span class="resource-name">Cognee</span>
+                        <span class="resource-desc">Knowledge engine for agent memory</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Built for AI agent developers. Last updated: March 2026.</p>
+            <p class="footer-note">Data sourced from GitHub (RAGFlow, Dify, LlamaIndex). Star counts may vary.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Tab functionality
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById(btn.dataset.tab).classList.add('active');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
